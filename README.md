@@ -1,4 +1,4 @@
-# <Website SEO Rework>
+# Website SEO Rework
 
 ## Description
 
