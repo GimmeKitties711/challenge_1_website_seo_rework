@@ -12,9 +12,9 @@ No installation is required for this project.
 
 The following screenshots show the website's appearance:
 
-![Accessible SEO Website Part 1 of 3](./assets/images/Accessible_SEO_Website_Part_1_of_3.png)
-![Accessible SEO Website Part 2 of 3](./assets/images/Accessible_SEO_Website_Part_2_of_3.png)
-![Accessible SEO Website Part 3 of 3](./assets/images/Accessible_SEO_Website_Part_3_of_3.png)
+![Accessible SEO Website Part 1 of 3](./assets/images/Accessible_SEO_Website_Part_1_of_3.jpg)
+![Accessible SEO Website Part 2 of 3](./assets/images/Accessible_SEO_Website_Part_2_of_3.jpg)
+![Accessible SEO Website Part 3 of 3](./assets/images/Accessible_SEO_Website_Part_3_of_3.jpg)
 
 The deployed website can be [found here](https://gimmekitties711.github.io/challenge_1_website_seo_rework/).
 
