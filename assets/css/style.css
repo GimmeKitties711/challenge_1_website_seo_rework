@@ -1,13 +1,16 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body tag selector */
 body {
     background-color: #d9dcd6;
 }
 
+/* header class selector */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* selector that affects the h1 (largest header) part of header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* selector that affects elements of class seo inside h1 which is inside header class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* in next three selectors, div was changed to nav (semantic) */
+/* selector that affects nav elements inside header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/* selector that affects ul elements which is the child of nav inside header class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* selector that affects li elements which is the child of ul which is the child of nav inside header class */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* selector that affects the presentation of the menu items that appear at the top of the page (when they are clicked on, they jump to their corresponding paragraphs on the page) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* selector that affects the font size of the paragraphs (the writing below Search Engine Optimization, Online Reputation Management, and Social Media Marketing) */
 p {
     font-size: 16px;
 }
 
+/* selector that affects the hero class (displays the largest picture) */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +71,26 @@ p {
     background-position: center;
 }
 
+/* selector that affects the float-left class. pushes picture to left of its box. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* selector that affects the float-right class. pushes picture to right of its box. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* selector that affects the content class. affects the Search Engine Optimization, Online Reputation Management, and Social Media Marketing sections of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* selector that affects the benefits class. the benefits class affects the Lead Generation, Brand Awareness, and Cost Management sections of the page. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +102,64 @@ p {
     background-color: #2589bd;
 }
 
+/* selector that affects the benefit-lead class, which affects the writing color and lower margin of the Lead Generation section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* selector that affects the benefit-brand class, which affects the writing color and lower margin of the Brand Awareness section */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* selector that affects the benefit-cost class, which affects the writing color and lower margin of the Cost Management section */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* selector that affects the lower margin and text alignment of the h3 header in the benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* selector that affects the lower margin and text alignment of the h3 header in the benefit-brand class */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* selector that affects the lower margin and text alignment of the h3 header in the benefit-cost class */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* selector that affects the display properties of the picture in the benefit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selector that affects the display properties of the picture in the benefit-brand class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selector that affects the display properties of the picture in the benefit-cost class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selector that affects the search-engine-optimization class, which affects the text box of the Search Engine Optimization section of the page */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +169,7 @@ p {
     color: #ffffff;
 }
 
+/* selector that affects the online-reputation-management class, which affects the text box of the Online Reputation Management section of the page */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/* selector that affects the social-media-marketing class, which affects the text box of the Social Media Marketing section of the page */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +189,40 @@ p {
     color: #ffffff;
 }
 
+/* selector that affects the img tag in the search-engine-optimization class, which sets the max height of the associated picture */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* selector that affects the img tag in the online-reputation-management class, which sets the max height of the associated picture */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* selector that affects the img tag in the social-media-marketing class, which sets the max height of the associated picture */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* selector that affects the h2 header in the search-engine-optimization class */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* selector that affects the h2 header in the online-reputation-management class */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* selector that affects the h2 header in the social-media-marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* selector that affects the footer class, which affects the writing */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +230,8 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* changed h2 to h4 */
+/* selector that affects the font size of the h4 header inside the footer class */
+.footer h4 {
     font-size: 20px;
 }
